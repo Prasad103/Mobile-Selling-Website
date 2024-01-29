@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* making the utility styles for common attribute and classes */
+
+body {
+    font-family: roboto, arial, sans-serif;
+    text-decoration: none;
+    min-height: 140vh;
+    background: #f1f3f6;
+}
+
+.flex {
+    display: flex;
+}
+
+.fa {
+    margin: 0px 4px;
+}
+
+.fa-angle-down {
+    font-weight: lighter;
+    margin: 0;
+}
+
+.fa-user {
+    border-radius: 50%;
+}
+
+
+/* styling the navigation and heading */
+
+.heading_navigation {
+    background-color: #2874f0;
+    height: 56px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}

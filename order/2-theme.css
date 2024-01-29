@@ -1,0 +1,51 @@
+/* (A) ORDER FORM */
+
+#orderform {
+    padding: 15px;
+    max-width: 400px;
+    background: #f2f2f2;
+    
+}
+
+#orderform h1 {
+    margin: 0;
+}
+
+#orderform label,
+#orderform input,
+#orderform textarea {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    resize: none;
+}
+
+#orderform input[type=submit] {
+    margin-top: 10px;
+    border: 0;
+    background: #3f429c;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/* (B) NOTIFICATION BAR */
+
+.notify {
+    background: #d7ffe9;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+/* (X) DOES NOT MATTER */
+
+body,
+html,
+input,
+textarea {
+    font-family: arial, sans-serif;
+}
